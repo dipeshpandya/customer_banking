@@ -43,7 +43,7 @@ def main():
         # Print out the interest earned and updated CD account balance with interest earned for the given months.
         # ADD YOUR CODE HERE
 
-        print(f"On a {account_type} with ${account_balance}, earning {account_interest}% per year, interest earned after {account_maturity} will be ${interest_earned}")
+        print(f"On {account_type} with ${account_balance}, earning {account_interest}% per year, interest earned after {account_maturity} will be ${interest_earned}")
         print(f"Updated balance for {account_type} at the end of {account_maturity} years will be ${updated_balance}")
 
 # call main() function

@@ -1,12 +1,12 @@
 #python-challenge-1
 # Module 3 Challenge
-
 ## Customer banking
+
 **Contents**
 
 * [Description](#description)
 * [Features](#features)
-* [How does it work](#how-does-it-work)
+* [How does it work](#how-does-it-work?)
 * [Concepts used](#cencepts-used)
 
 ### Description
@@ -31,7 +31,7 @@ This is a customer facing banking application desgined to offer to "customer" a 
 * Application loops back the user to account type selection prompt
 * The prompt shows selecting Q to (Q)uit the application. User can also enter any other key to quit the application.   
 
-### How does it work
+### How does it work?
 * The application covers (4) files
     1. Account.py
     2. customer_banking.py
