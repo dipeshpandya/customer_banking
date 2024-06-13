@@ -24,9 +24,9 @@ def main():
     # Prompt the user to set the balance, interest rate, and months for the selected account type.
     # ADD YOUR CODE HERE
     
-        account_balance = int(input(f"Please enter {account_type} account balance? "))
-        account_interest = int(input(f"Enter annual interest rate on {account_type} ? "))
-        account_maturity = int(input("Please enter time period in years to calculate intereste earned ? "))
+        account_balance = float(input(f"Please enter {account_type} account balance? "))
+        account_interest = float(input(f"Enter annual interest rate on {account_type} ? "))
+        account_maturity = float(input("Please enter time period in years to calculate intereste earned ? "))
         account_maturity_months = account_maturity * 12
 
 
@@ -43,7 +43,7 @@ def main():
         # Print out the interest earned and updated CD account balance with interest earned for the given months.
         # ADD YOUR CODE HERE
 
-        print(f"On {account_type} with ${account_balance}, earning {account_interest}% per year, interest earned after {account_maturity} will be ${interest_earned}")
+        print(f"On {account_type} with ${account_balance}, earning {account_interest}% interest per year, interest earned after {account_maturity} years will be ${interest_earned}")
         print(f"Updated balance for {account_type} at the end of {account_maturity} years will be ${updated_balance}")
 
 # call main() function
